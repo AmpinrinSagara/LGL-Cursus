@@ -11,8 +11,19 @@ Bienvenue sur le dépôt officiel du projet **LGL-Cursus**, une application web 
 
 ---
 
-## 🚀 À propos du projet
-**LGL-Cursus** est une application web dynamique qui structure le parcours pédagogique d'un étudiant. Le site ajuste son contenu en temps réel selon le rôle de l'utilisateur connecté grâce à une communication fluide entre le serveur et la base de données.
+## 🚀 À propos du projet  **LGL-Cursus** est une application web dynamique qui structure le parcours pédagogique d'un étudiant. Le site ajuste son contenu en temps réel selon le rôle de l'utilisateur connecté grâce à une communication fluide entre le serveur et la base de données.
+
+### ⚙️ Fonctionnalités Clés & Logique de Validation :
+*   **Gestion des rôles & Sessions sécurisées :** Espaces distincts et protégés pour les Professeurs et les Étudiants.
+*   **Système de progression linéaire :** Algorithme de verrouillage automatisé empêchant l'accès à un cours tant que le précédent n'est pas validé.
+*   **Validation par l'évaluation :** Formulaires de quiz (QCM) dynamiques avec calcul de score instantané. En cas de score suffisant, le cours actuel passe à "Terminé" et déverrouille le cours suivant.
+*   **Pédagogie active (Score insuffisant) :** En cas d'échec, le cours suivant reste verrouillé. Le site affiche un message d'encouragement et les erreurs commises, puis effectue une **redirection automatique vers la page de lecture** pour inciter l'étudiant à relire le document et réviser.
+
+### 📝 Le Parcours du Professeur (Tableau de Bord)
+*   **Gestion des Contenus :** Un formulaire dédié lui permet de téléverser un nouveau document de cours directement dans la base de données.
+*   **Création des Évaluations :** Un formulaire complémentaire lui permet de saisir les questions, les choix possibles et la bonne réponse pour le quiz associé à ce cours.
+*   **Suivi Pédagogique :** Un tableau récapitulatif lui permet de voir en temps réel la liste des étudiants inscrits ainsi que les scores obtenus par chacun aux différents quiz.
+__
 
 ### ⚙️ Fonctionnalités Clés :
 *   **Gestion des rôles & Sessions sécurisées :** Espaces distincts et protégés pour les Professeurs et les Étudiants.
