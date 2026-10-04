@@ -11,7 +11,7 @@ Bienvenue sur le dépôt officiel du projet **LGL-Cursus**, une application web 
 
 ---
 
-## 🚀 À propos du projet  **LGL-Cursus** est une application web dynamique qui structure le parcours pédagogique d'un étudiant. Le site ajuste son contenu en temps réel selon le rôle de l'utilisateur connecté grâce à une communication fluide entre le serveur et la base de données.
+## 🚀 À propos du projet            *   **LGL-Cursus** est une application web dynamique qui structure le parcours pédagogique d'un étudiant. Le site ajuste son contenu en temps réel selon le rôle de l'utilisateur connecté grâce à une communication fluide entre le serveur et la base de données.
 
 ### ⚙️ Fonctionnalités Clés & Logique de Validation :
 *   **Gestion des rôles & Sessions sécurisées :** Espaces distincts et protégés pour les Professeurs et les Étudiants.
